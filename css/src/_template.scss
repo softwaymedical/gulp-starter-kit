@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+	box-sizing: inherit;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 1em;
+	margin: 0;
+	padding: 20px 50px;
+}
+
+body {
+	background-color: #FFF;
+	font-family: "Open Sans", "Helvetica", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U0 -0FF, U131, U152 -153, U2C6, U2DA, U2DC, U2000 -206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
+* {
+  box-sizing: border-box; }
+  *:before, *:after {
+    box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 1em;
+  margin: 0;
+  padding: 20px 50px; }
+
+body {
+  background-color: #FFF;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-size: 1em;
+  font-weight: 400; }
